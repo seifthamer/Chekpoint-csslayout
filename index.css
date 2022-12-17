@@ -1,0 +1,207 @@
+.section__inner {
+    zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+img {
+    max-width: 100%;
+    border: 0;
+    }
+.main1{
+    color: aqua;
+}  
+.main-menu a {
+   
+    display: block;
+    text-decoration: none;
+    padding: 0 0.6em;
+}
+a{
+    
+    outline: 0;
+    transition: all .2s ease 0s;
+    box-sizing: inherit;
+    padding: 50px 20px 20px 100px;
+
+
+    background-color: transparent;
+}
+nav a{
+text-decoration: none;
+    list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+    padding: 1.33em 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+    
+.header{
+    position: relative;
+    float: right;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    
+}
+    
+ 
+    
+    .grid{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(17, 207, 207);
+    
+   
+}
+.main{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    color: dimgrey;
+}
+.main h3{
+    line-height: 2;
+   
+}
+.section__inner2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap :20px ;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 70px;
+   
+ 
+}
+.patients{
+    background: #00ccb1;
+}
+.doctors{
+    background: #3d83df;
+}
+.clinics{
+    background:#1b2734 ;
+}
+.table{
+    height: 350px;
+    color: aliceblue;
+    border-radius: 9px;
+    padding: 20px;
+
+}
+.table h3{
+    font-size: 20px;
+}
+select{
+    border: none;
+    background-color: transparent;
+    color: aliceblue;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+option{
+    color: #1b2734;
+}
+
+.brands h2 {
+    float: left;
+    width: 33%;
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+   
+    padding-top: 1em;
+    color: #00b39b;
+    
+}
+.brands__logos {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 0;
+    list-style: none;
+    width: 67%;
+    padding-top: 30px;
+   
+}
+.brands__logos a {
+    display: inline-block;
+    padding: 5px 0;
+  
+   
+    
+}
+.section{
+    background-color: #00ccb1;
+    height: 600px;
+    margin-top: 60px;
+    
+    
+}
+.platforme{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+.form1 h1{
+    color: crimson;
+}
+.form1 p{
+    color: rgb(8, 1, 1);
+}
+.cards{
+    background-color: white;
+    border-radius: 5px;
+}
+.cards h2{
+    color: brown;
+    font-weight: 100;
+}
+.cards p{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.image h1{
+    color: brown;
+  
+
+
+}
+.image p{
+    color: grey;
+    line-height: 1.7142857143;
+    padding: 60px;
+}
+.image{
+    text-align: center;
+}
+
+
+.office-image{
+    display: flex;
+    
+
+}
+
+    
+        
+    
