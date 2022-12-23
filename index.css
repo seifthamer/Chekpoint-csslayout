@@ -155,12 +155,12 @@ option{
     
 }
 .platforme{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 20px;
+  
     width: 60%;
     margin: auto;
     padding: 20px;
+    display: flex;
+    flex-direction: row;
 }
 .form1 h1{
     color: crimson;
@@ -169,8 +169,9 @@ option{
     color: rgb(8, 1, 1);
 }
 .cards{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.967);
     border-radius: 5px;
+   
 }
 .cards h2{
     color: brown;
